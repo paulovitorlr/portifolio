@@ -1,13 +1,10 @@
 import { Component } from '@angular/core';
-
-//diretivas
-import { NavBarDirective } from '../../directives/navbar';
+import { NavBar } from '../nav-bar/nav-bar';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-home',
-  imports: [
-    NavBarDirective
-  ],
+  imports: [NavBar,CommonModule],
   templateUrl: './home.html',
   styleUrl: './home.scss',
 })

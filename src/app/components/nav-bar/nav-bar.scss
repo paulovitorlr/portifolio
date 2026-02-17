@@ -1,0 +1,13 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 8px;
+    background-color: aqua;
+    padding: 20px;
+
+    li{
+        display: inline-block;
+        margin: 5px;
+    }
+}
