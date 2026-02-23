@@ -8,7 +8,9 @@
 
   <ul>
     <li *ngFor="let item of navegation">
-      <a href="#">{{ item }}</a>
+      <a [routerLink]="item.link">
+        {{ item.name }}
+      </a>
     </li>
   </ul>
 </div>
