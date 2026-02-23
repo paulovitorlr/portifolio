@@ -1,12 +1,25 @@
-<nav>
-    <p>{{ name }}</p>
+<div class="NavBar">
+  <p>
+    <span class="prefix">{{ prefix }}</span>
+      
+      <span class="nome">{{ name }}</span>
+     <span class="suffix">{{ suffix }}</span>
+  </p>
 
- <ul>
-      <li *ngFor="let item of navegation">
-        {{ item }}
-      </li>
- </ul>
-</nav>
+  <ul>
+    <li *ngFor="let item of navegation">
+      <a href="#">{{ item }}</a>
+    </li>
+  </ul>
+</div>
+  
+
+   
+
+    
+      
+ 
+
 
 
    

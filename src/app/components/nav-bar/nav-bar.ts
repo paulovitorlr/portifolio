@@ -8,6 +8,8 @@ import { CommonModule } from '@angular/common';
   styleUrl: './nav-bar.scss',
 })
 export class NavBar {
-    name = " 🟦 Paulo Vitor / Desenvolvedor Web";
-    navegation = ["Sobre", "Currículo", "Projetos", "Contato"];
+    prefix = "🟦 ";
+    name = "Paulo Vitor";
+    suffix = " / DESENVOLVEDOR WEB";
+    navegation = [" SOBRE", "CURRÍCULO", "PROJETOS", "CONTATO"];
 } 

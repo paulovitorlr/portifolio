@@ -1,5 +1,4 @@
-import { Directive, ElementRef, inject, OnInit } from "@angular/core";
-import { elementAt } from "rxjs";       
+import { Directive, ElementRef, inject, OnInit } from "@angular/core";      
 
 @Directive({
     selector: '[oladirective]',
@@ -14,6 +13,7 @@ export class OlaDirective implements OnInit{
    
     this.el.style.height = '500px';
     this.el.style.width = '300px';
+    
     
     this.el.style.display = 'flex';
     this.el.style.flexDirection = 'column';
