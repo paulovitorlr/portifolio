@@ -24,6 +24,13 @@ export class CurriculoDirective implements OnInit{
     
     this.el.style.boxSizing = 'border-box';
     
+    const img = this.el.querySelector("img") as HTMLImageElement;
+    if (img) {
+        
+        img.style.maxWidth = "100%";
+        img.style.height = "auto";
+        
+    }
 
     
 }

@@ -1,0 +1,29 @@
+@use '../../../variaveis' as *;
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: $Fundo-Primaria;
+    padding: 50px;
+
+    div{
+        margin: 20px;
+        div.Descricao{
+            h2{
+                color: $Azul-Secundaria;
+            }
+
+            p{
+                text-align: justify;
+                hyphens: auto;
+                text-indent: 20px;
+                line-height: 1.3;
+                font-size: 0.8rem;
+                color: #000000;
+                letter-spacing: 0.2px;
+        }
+    }
+        
+}
+}
